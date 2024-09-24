@@ -141,3 +141,13 @@ main {
     top: 20px;
     right: 20px;
 }
+
+.addInfoAluno{
+    display: flex;
+    justify-content: space-between;
+}
+
+.addInfoAluno input{
+    border-radius: 5px;
+    border-color: black;
+}
