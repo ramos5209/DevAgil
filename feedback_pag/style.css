@@ -1,83 +1,72 @@
-*{
-    margin:0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    box-sizing: border-box; /* Inclui bordas e preenchimento na largura e altura total */
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+    font-family: Arial, sans-serif; /* Define a fonte da página */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    margin: 0; /* Remove margens da página */
+    padding: 20px; /* Adiciona preenchimento em torno do conteúdo */
 }
 
-/*Header*/
+/* Header */
 header {
     background-color: red; /* Cor de fundo do cabeçalho */
-    color: white; /* Cor do texto */
-    padding: 10px 0; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
+    color: white; /* Cor do texto no cabeçalho */
+    padding: 10px 0; /* Espaçamento interno no cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
 }
 
-/*Container do formulario*/
+/* Container do formulário */
 .container {
-    max-width: 500px;
-    margin: auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin-top: 5%;
+    max-width: 500px; /* Largura máxima do container */
+    margin: auto; /* Centraliza o container horizontalmente */
+    background: #fff; /* Cor de fundo do container */
+    padding: 20px; /* Preenchimento interno do container */
+    border-radius: 5px; /* Bordas arredondadas do container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil ao redor do container */
+    margin-top: 5%; /* Margem superior para espaçamento */
 }
 
 h1 {
-    text-align: center;
+    text-align: center; /* Centraliza o título */
 }
 
 label {
-    display: block;
-    margin-top: 10px;
+    display: block; /* Faz o rótulo ocupar toda a largura */
+    margin-top: 10px; /* Espaçamento superior entre rótulos e campos */
 }
 
 input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: 100%; /* Campo ocupa 100% da largura do container */
+    padding: 10px; /* Preenchimento interno nos campos */
+    margin-top: 5px; /* Espaçamento superior entre campos */
+    border: 1px solid #ccc; /* Borda cinza ao redor dos campos */
+    border-radius: 5px; /* Bordas arredondadas dos campos */
 }
 
 button {
-    margin-top: 10px;
-    padding: 10px;
-    background: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    margin-top: 10px; /* Espaçamento superior no botão */
+    padding: 10px; /* Preenchimento interno do botão */
+    background: #28a745; /* Cor de fundo do botão (verde) */
+    color: white; /* Cor do texto no botão */
+    border: none; /* Remove borda padrão do botão */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
 button:hover {
-    background: #218838;
+    background: #218838; /* Cor do botão quando o mouse passa por cima */
 }
 
 .hidden {
-    display: none;
+    display: none; /* Esconde elementos com a classe "hidden" */
 }
 
 .feedback {
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/*Rodapé*/
-footer {
-    margin-top: 10px;
-    background-color: black; /* Cor de fundo do rodapé */
-    color: white; /* Cor do texto */
-    text-align: center; /* Centraliza o texto */
-    padding: 10px 0; /* Espaçamento interno */
-    bottom: 0; /* Fixa o rodapé na parte inferior */
-    width: 100%; /* Largura total */
+    margin-top: 20px; /* Espaçamento superior para feedback */
+    padding: 10px; /* Preenchimento interno do feedback */
+    border-radius: 5px; /* Bordas arredondadas do feedback */
 }
