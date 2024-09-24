@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link css-->
+    <link rel="stylesheet" href="./style.css">
+    <title>Feedback dos Alunos</title>
+</head>
+<body>
+    <div class="container">
+        <!--Nome do formulario-->
+        <h1>Feedback dos Alunos</h1>
+        <!--Inicio do formulario-->
+        <form id="feedbackForm">
+            <!--Campo para preencher o nome-->
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+
+            <!--Campo para preencher o nivel de satisfação-->
+            <label for="Satisfacao">Nível de Satisfação (1-5):</label>
+            <input type="number" id="Satisfacao" min="1" max="5" required>
+
+            <!--Campo para prenchimento dos comentarios-->
+            <label for="comtario">Comentários:</label>
+            <textarea id="comentario" rows="4"></textarea>
+
+            <!--Btn para o envio do feedback-->
+            <button class="Btn" type="submit">Enviar Feedback</button>
+        </form>
+        <!--Fim do formulario-->
+        <div id="feedbackMessage" class="hidden"></div>
+    </div>
+
+    <!--Expotação do js-->
+    <script src="main.js"></script>
+</body>
+</html>
