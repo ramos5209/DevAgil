@@ -142,6 +142,28 @@ main {
     right: 20px;
 }
 
+<<<<<<< HEAD
+.student-info {
+    display: flex;
+    justify-content: flex-start; /* Alinha os itens no início */
+    align-items: center; /* Alinha verticalmente ao centro */
+    gap: 10px; /* Espaçamento pequeno entre os elementos */
+}
+
+.student-info h3 {
+    font-size: 14px; /* Tamanho de fonte reduzido */
+    margin-bottom: 0; /* Remove margem inferior */
+}
+
+.rounded-input {
+    padding: 8px; /* Padding ajustado */
+    border-radius: 20px; /* Borda arredondada */
+    border: 1px solid #ccc;
+    width: 45%; /* Tamanho reduzido e ajustado */
+    font-size: 14px; /* Tamanho de fonte reduzido */
+    margin-bottom: 0; /* Remove margem inferior */
+}
+=======
 .addInfoAluno{
     display: flex;
     justify-content: space-between;
@@ -151,5 +173,10 @@ main {
 .addInfoAluno input{
     border-radius: 5px;
     border-color: black;
+<<<<<<< HEAD
     padding: 5px;
 }
+=======
+}
+>>>>>>> ffec64f066c9f6a657c1ed546e0992da806b65d0
+>>>>>>> 896abad38cfead49279229c978a21e2c2518d4fb
