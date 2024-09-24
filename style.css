@@ -145,9 +145,11 @@ main {
 .addInfoAluno{
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .addInfoAluno input{
     border-radius: 5px;
     border-color: black;
+    padding: 5px;
 }
