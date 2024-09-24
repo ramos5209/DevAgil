@@ -142,6 +142,7 @@ main {
     right: 20px;
 }
 
+<<<<<<< HEAD
 .student-info {
     display: flex;
     justify-content: flex-start; /* Alinha os itens no início */
@@ -162,3 +163,14 @@ main {
     font-size: 14px; /* Tamanho de fonte reduzido */
     margin-bottom: 0; /* Remove margem inferior */
 }
+=======
+.addInfoAluno{
+    display: flex;
+    justify-content: space-between;
+}
+
+.addInfoAluno input{
+    border-radius: 5px;
+    border-color: black;
+}
+>>>>>>> ffec64f066c9f6a657c1ed546e0992da806b65d0
